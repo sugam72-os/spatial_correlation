@@ -13,4 +13,4 @@ variable = the standard name of the variable: pr, tasmin and tasmax for precipit
 all_crn=pd.read_excel('J:/Humboldt_project/pre-chron/powt/all_chronologies_1950-2022.xlsx')
 all_crn.head()
 ########### To run the function
-chelsa_correlation(netCDF_file='stacked_tmax_data8.nc', chron=all_crn, month_range=[3,5], variable='tasmax')
+spatial_correlation(netCDF_file='stacked_tmax_data8.nc', chron=all_crn, month_range=[3,5], variable='tasmax')
